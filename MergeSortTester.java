@@ -1,5 +1,5 @@
 /*
-Team LisaAndStitch - Yikai Wang, Kate Johnston, and Lisa Shi
+Team LisaAndStitch - Yikai Wang, Kate Ly Johnston, and Lisa Shi
 APCS2 pd5
 HW11 -- Wrapping It Up
 2016-03-09
