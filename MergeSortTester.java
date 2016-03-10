@@ -24,7 +24,8 @@ HW11 -- Wrapping It Up
   The variable, l, was used to record the time before the array was sorted.
   System.nanoTime - l is then used to record the runtime per test case.
   Runtime is calculated using System.nanoTime(), since milliseconds are not acurrate enough.
-  After all the cases were run, the data is printed out, along with the average runtime.
+  After all the cases were run, the data is printed out using a foreach loop, 
+  and the data is summed and averaged.
 
   BIG-OH CLASSIFICATION OF ALGORITHM:
   O(n*log n)
@@ -54,7 +55,7 @@ public class MergeSortTester
 
       There are 3 for loops. one within the other, for generating array size, going through test cases, and populating the array.
       Runtime is calculated using System.nanoTime() and recorded in an array after each test case. After all the cases
-      were run, the data is printed out, along with the average runtime.
+      were run, the data is printed out in a foreach loop, along with the average runtime.
      ******************************/
     public static void main( String[] args ) 
     {
