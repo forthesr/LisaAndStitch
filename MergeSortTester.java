@@ -30,7 +30,7 @@ HW11 -- Wrapping It Up
   BIG-OH CLASSIFICATION OF ALGORITHM:
   O(n*log n)
 
-  Mean execution times for dataset of size n:
+  Mean execution times for dataset of size n: ***Different for each computer***
   Batch size: 40
   n=1       time: ~180 nanoseconds
   n=10      time: ~9050 nanoseconds
