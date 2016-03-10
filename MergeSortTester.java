@@ -46,8 +46,7 @@ HW11 -- Wrapping It Up
   increase rather than a 100 times increase.
   ======================================*/
 
-public class MergeSortTester 
-{
+public class MergeSortTester {
 
     /******************************
      * The main method's execution time is about O( log(biggest goal array size) * batch size * array size )
@@ -57,8 +56,7 @@ public class MergeSortTester
       Runtime is calculated using System.nanoTime() and recorded in an array after each test case. After all the cases
       were run, the data is printed out in a foreach loop, along with the average runtime.
      ******************************/
-    public static void main( String[] args ) 
-    {
+    public static void main( String[] args ) {
       int n = 1; int batch = 40; //n is the number of elements in an array
                                 //batch is the number of test cases
       int[] array = new int[n];
@@ -68,6 +66,7 @@ public class MergeSortTester
       /* this code below was implemented to "warm up" the main method because the first
       test case when n = 1 ALWAYS took relatively long to run. ex: before this was implemented,
       the first runtime for n = 1 was over 500000 nanoseconds to run. That is waay too long when n = 1. */
+
       MergeSort.sort( array );
 
       for(; n < 10000; n*=10 ) { //array size gets larger ten times each iteration
@@ -102,6 +101,6 @@ public class MergeSortTester
         System.out.println( "The average time is " + sum/batch + " nanoseconds.\n" );
     }
 
-    }//end main
+    } // end main
 
-}//end class
+} // end class
